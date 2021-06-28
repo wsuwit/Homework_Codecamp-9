@@ -6,10 +6,11 @@ Steps for GIT:
 2. Ctrl + J : open TERMINAL
 3. git init | git clone https://www...
 4. git add . | git add (file name…)
-5. git remote add origin https://github.com/wsuwit/Homework_Codecamp-9.git
-6. git branch -M main
-7. git push -u origin main (after that “git push” for short)
-8. git remote -v (check origin source)
+5. git commit -m "My comment here!"
+6. git remote add origin https://github.com/wsuwit/Homework_Codecamp-9.git
+7. git branch -M main
+8. git push -u origin main (after that “git push” for short)
+9. git remote -v (check origin source)
 
 
 "HOMEWORK"
