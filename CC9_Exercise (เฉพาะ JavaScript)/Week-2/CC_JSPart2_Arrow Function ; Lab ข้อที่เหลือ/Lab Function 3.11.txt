@@ -1,0 +1,5 @@
+// Lab Function 3.11
+
+const farenToCel = f => (f-32)*5/9;
+let faren = +prompt('Input Farenheit to be converted to Celsius; ');
+console.log(`${farenToCel(faren).toFixed(2)} celsius`);

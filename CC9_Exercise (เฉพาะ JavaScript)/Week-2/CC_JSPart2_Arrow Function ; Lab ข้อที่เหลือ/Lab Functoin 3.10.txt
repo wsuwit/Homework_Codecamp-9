@@ -1,0 +1,5 @@
+// Lab Functoin 3.10
+
+const bDays = (year) => (2020-year)*365.25;
+let yInput = +prompt(`Just input your birth year: `);
+console.log(bDays(yInput).toFixed(0));

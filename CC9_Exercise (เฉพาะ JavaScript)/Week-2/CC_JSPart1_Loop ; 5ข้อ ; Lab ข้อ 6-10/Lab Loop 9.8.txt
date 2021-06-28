@@ -1,0 +1,16 @@
+// Lab Loop 9.8
+
+let sum = 0;
+let amount = 0;
+
+while (true) {
+    const userInput = +prompt("Welcome to input your number: ");
+    if (userInput < 1 || userInput === '' || userInput === null) {
+        break;
+    }
+    sum += userInput;
+    amount++
+}
+
+console.log(`sum: ${sum}`);
+console.log(`average: ${sum/amount}`);

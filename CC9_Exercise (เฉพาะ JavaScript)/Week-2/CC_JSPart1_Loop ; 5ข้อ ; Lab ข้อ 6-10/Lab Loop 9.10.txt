@@ -1,0 +1,13 @@
+// Lab Loop 9.10
+
+for (let i=1; i<=100; i++) {
+
+    let notPrime = false;
+    for (let j=2; j<i; j++) {
+        if (i%j===0) {
+            notPrime = true;
+        }
+    } if (notPrime === false && i>1) {
+        console.log(i);
+    }
+}

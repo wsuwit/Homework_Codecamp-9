@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {padding: 0; margin: 0; height: 200vh;}
+        .big {width: 50%; height: 50%;}
+        .small {width: 25%; height: 25%;}
+        .inside {width: 10%; height: 10%;}
+        .absolute {position: absolute;}
+        .relative {position: relative;}
+        .fixed {position: fixed;}
+        .top {top: 0;}
+        .left {left:0;}
+        .right {right: 0;}
+        .bottom {bottom: 0;}
+        .center {left: 50%; top: 50%; transform: translate(-50%, -50%);}
+        .red {background-color: red;}
+        .green {background-color: green;}
+        .blue {background-color: blue;}
+        .yellow {background-color: yellow;}
+        .pink {background-color: deeppink;}
+        .white {background-color: white;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="small relative fixed top left red"></div>    
+        <div class="small relative fixed top right green"></div>
+        <div class="big relative fixed center white">
+            <div class="inside absolute fixed center pink"></div>
+            <div class="inside absolute fixed top left red"></div>
+            <div class="inside absolute fixed top right green"></div>
+            <div class="inside absolute fixed bottom left blue"></div>
+            <div class="inside absolute fixed bottom right yellow"></div>
+        </div>
+        <div class="small relative fixed left bottom blue"></div>
+        <div class="small relative fixed right bottom yellow"></div>    
+    </div>
+    </body>
+</html>

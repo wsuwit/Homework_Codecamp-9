@@ -1,0 +1,18 @@
+// Lab Fucntion 1.11
+
+function sayHi(age) {
+    if (age < 12) alert('Hi kid');
+}
+console.log(sayHi); // * Show the whole function
+console.log(sayHi(10)); // ** undefined
+
+function sayHi(name) {
+    if (name) {
+        alert('Hi ' + name);
+        return;
+    } else {
+        return 'Who are you?';
+    }
+}
+console.log(sayHi('John')); // *** undefined
+console.log(sayHi()); // **** Who are you?

@@ -1,0 +1,6 @@
+// Lab Function 3.12
+
+let fact = 1;
+const factorial = x => {for (let i=1; i<=x; i++) {fact *= i}; return fact;}
+let fac = +prompt(`Input number for factorial: `);
+console.log(`Factorial of ${fac} is ${factorial(fac)}`);

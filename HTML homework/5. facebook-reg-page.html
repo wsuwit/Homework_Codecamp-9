@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework3-facebook</title>
+    <style>
+        *{
+            font-family: helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            background: white;
+        }
+        .mainBg {
+            background: #f0f2f5;
+            width: 100%;
+        }
+        .mainContainer {
+            background: #f0f2f5;
+            padding: 40px 0px;
+            border: none;
+            margin: 0px auto;
+            text-align: center;
+            width: 980px;
+            /* outline: 1px solid black; */
+        }
+        .header {
+            margin: 0px auto;
+            padding: 0px;
+            width: 400px;
+            height: 150px;
+            /* float: left; */
+            /* outline: 1px solid black; */
+        }
+        .h1Font {
+            font-weight: 700;
+            font-size:3.5em; 
+            padding: 0px 0px 10px;
+            text-align: left;
+        }
+        .h2Font {
+            font-weight: 100;
+        }
+        form {
+            padding: 6px 15px;
+        }
+        section {
+        }
+        .marginZero {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        .blueFB {
+            color: #1877f2;
+        }
+        .center {
+            text-align: center;
+        }
+        .inputForm {
+            font-size:19px; 
+            width: 364px;
+            border-radius: 6px;
+            margin: 6px auto;
+            padding: 14px 16px;
+            border: 1px solid #dddfe2;
+        }
+        .formBox {
+            display: inline-block;
+            background: white; 
+            padding: 6px;
+            width: 400px;
+            height: 350px;
+            border-radius: 6px;
+            box-shadow: black 0px 8px 20px -15px;
+            margin: 0 auto;
+        }
+        input[type=text]:focus {
+            /* border: 10px solid dodgerblue; */
+            /* background-color: blue; */
+        }
+        .loginSubmit {
+            background: #1877f2; 
+            border: none; 
+            color: white;
+        }
+        .loginSubmit:hover {
+            cursor: pointer;
+            background: #006eff; 
+            border: none; 
+            color: white;
+        }
+        .noUnderLine {
+            text-decoration: none;
+        }
+        .noUnderLine:hover {
+            text-decoration: underline;
+        }
+        .buttonAccount {
+            background: #42b72a; 
+            color: white; 
+            border: none; 
+            border-radius: 6px; 
+            font-size: 19px; 
+            line-height: 48px; 
+            padding: 0 16px; 
+            display: inline-block;
+            margin: 18px;
+        }
+        .buttonAccount:hover {
+            background: green; 
+            color: white; 
+            border: none; 
+            border-radius: 6px; 
+            font-size: 19px; 
+            line-height: 48px; 
+            padding: 0 16px; 
+            cursor: pointer; 
+            display: inline-block;
+        }
+        footer {
+            width: 980px;
+            margin: auto;
+        }
+        ul a {
+            text-decoration: none;
+            color: #385898;
+            font-size: 14px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 8px 0 0;
+        }
+        ul li {
+            display: inline-block;
+            margin: 0px;
+            padding: 0px 8px 0px 0px;
+            color: #737373;
+        }
+        .copyRight {
+            font-size: 13px;
+            color: #737373;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainBg">
+    <div class="mainContainer">
+        <header class="header center">
+            <h1 class="marginZero blueFB center h1Font">facebook</h1>
+            <h2 class="marginZero center h2Font">Facebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</h2>
+        </header>
+        <section>
+            <div class="formBox">
+                <form action="#">
+                    <input type="text" class="inputForm" placeholder="อีเมลหรือหมายเลขโทรศัทพ์มือถือ" autofocus>
+                    <input class="inputForm" type="pass" placeholder="รหัสผ่าน">
+                    <input class="inputForm loginSubmit" type="submit" value="เข้าสู่ระบบ">
+                    <div class="center">
+                        <a href="#" class="noUnderLine underlineDeco">ลืมรหัสผ่านใช่หรือไม่</a>
+                    </div>
+                    <hr>
+                    <div class="center">
+                        <button class="buttonAccount">สร้างบัญชีใหม่</button>
+                    </div>
+                </form>
+            </div>
+            <p><a href="#" class="noUnderLine" style="color: black;"><b>สร้างเพจ</b></a> สำหรับบุคคลมีชื่อเสียง วงดนตรี หรือธุรกิจ</p>
+        </section>
+    </div>
+    </div>
+    <footer class="">
+        <div>
+            <ul class="">
+                <li>ภาษาไทย</li>
+                <li><a href="#">English (UK)</a></li>
+                <li><a href="#">日本語</a></li>
+                <li><a href="#">中文(简体)</a></li>
+                <li><a href="#">Tiếng Việt</a></li>
+                <li><a href="#">Français (France)</a></li>
+                <li><a href="#">Deutsch</a></li>
+                <li><a href="#">Русский</a></li>
+                <li><a href="#">Español</a></li>
+                <li><a href="#">Português (Brasil)</a></li>
+                <li><a href="#">Italiano</a></li>
+            </ul>
+            <hr style="">
+            <ul>
+                <li><a href="#">สมัคร</a></li> 
+                <li><a href="#">เข้าสู่ระบบ</a></li> 
+                <li><a href="#">Messenger</a></li> 
+                <li><a href="#">Facebook Lite</a></li> 
+                <li><a href="#">Watch</a></li> 
+                <li><a href="#">ผู้คน</a></li> 
+                <li><a href="#">เพจ</a></li> 
+                <li><a href="#">หมวดหมู่เพจ</a></li> 
+                <li><a href="#">สถานที่</a></li> 
+                <li><a href="#">เกม</a></li> 
+                <li><a href="#">ตำแหน่งที่ตั้ง</a></li> 
+                <li><a href="#">Marketplace</a></li> 
+                <li><a href="#">Facebook Pay</a></li> 
+                <li><a href="#">กลุ่ม</a></li>                  
+                <li><a href="#">งาน</a></li>                  
+                <li><a href="#">Oculus</a></li>                  
+                <li><a href="#">Portal</a></li>                  
+                <li><a href="#">Instagram</a></li>                  
+                <li><a href="#">ในพื้นที่</a></li>                  
+                <li><a href="#">โครงการระดมทุน</a></li>                  
+                <li><a href="#">บริการ</a></li>                  
+                <li><a href="#">ศูนย์ข้อมูลการลงคะแนนเสียง</a></li>                  
+                <li><a href="#">เกี่ยวกับ</a></li>                  
+                <li><a href="#">สร้างโฆษณา</a></li>                  
+                <li><a href="#">สร้างเพจ</a></li>                  
+                <li><a href="#">ผู้พัฒนา</a></li>                  
+                <li><a href="#">ร่วมงานกับ Facebook</a></li>                  
+                <li><a href="#">ความเป็นส่วนตัว</a></li>                  
+                <li><a href="#">คุกกี้</a></li>                  
+                <li><a href="#">ตัวเลือกโฆษณา<sup>i</sup></a></li>                  
+                <li><a href="#">เงื่อนไข</a></li>                  
+                <li><a href="#">ความช่วยเหลือ</a></li>                           
+            </ul>
+            <p class="copyRight">Facebook &#169; 2021</p>
+        </div>
+    </footer>
+</body>
+</html>

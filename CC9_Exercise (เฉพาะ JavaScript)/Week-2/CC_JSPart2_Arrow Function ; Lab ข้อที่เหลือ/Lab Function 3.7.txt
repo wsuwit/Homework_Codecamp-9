@@ -1,0 +1,4 @@
+// Lab Function 3.7
+
+let modBy7 = (num) => num%7===0;
+console.log(modBy7(63));

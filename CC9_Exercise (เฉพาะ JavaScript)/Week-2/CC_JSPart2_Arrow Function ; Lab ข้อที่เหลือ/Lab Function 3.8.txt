@@ -1,0 +1,11 @@
+// Lab Function 3.8
+
+let score = 0;
+
+for (let i=0; i<3; i++) {
+    let result = ['wins', 'draws', 'loses'];
+    let input = prompt(`How many ${result[i]}?`);
+    let calScore = x => {if (i===0) score+=(x*3); else if (i===1) score+=(x*1); else score+=(x*0);}
+    calScore(input);
+}
+console.log(`${score} points`);

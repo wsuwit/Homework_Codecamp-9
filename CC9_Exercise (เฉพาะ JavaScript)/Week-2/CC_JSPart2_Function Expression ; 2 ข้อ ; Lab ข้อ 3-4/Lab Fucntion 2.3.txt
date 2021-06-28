@@ -1,0 +1,18 @@
+// Lab Fucntion 2.3
+
+function checkPermission(roll, yes, no) {
+    if (confirm(roll)) {
+        yes();
+     } else {
+         no();
+     }
+}
+function admin() {
+    alert('ACCESS GRANTED!');
+}
+function notAdmin() {
+    alert('ACCESS DENIED...');
+}
+
+const exp = checkPermission;
+exp('Are you admin?', admin, notAdmin);

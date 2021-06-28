@@ -1,0 +1,7 @@
+// Lab Function 3.4
+
+// const logName = (name) => console.log(name);
+
+const logName = name => console.log(name);
+
+logName('Boon'); // The 2 codes above do work similarly.

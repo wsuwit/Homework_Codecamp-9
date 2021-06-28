@@ -1,0 +1,18 @@
+// Lab Fucntion 1.14
+
+function max(a, b, c, d) {
+    for (let i=0; i<=3; i++) {
+        const list = [a, b, c, d];
+        if (typeof(list[i])==='number' || typeof(list[i])==='undefined') continue; return NaN;    
+    }
+    let num=a;
+    if (b>num) num=b;
+    if (c>num) num=c;
+    if (d>num) num=d;
+    return num;
+}
+
+console.log(max()); // undefined
+console.log(max(2)); // 2
+console.log(max(3, 1)); // 3
+console.log(max(7, 3, 9, 2)); // 9

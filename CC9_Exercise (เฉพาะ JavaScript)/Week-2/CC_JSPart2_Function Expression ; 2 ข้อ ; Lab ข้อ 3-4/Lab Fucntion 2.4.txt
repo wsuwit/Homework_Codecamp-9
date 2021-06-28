@@ -1,0 +1,11 @@
+// // Lab Fucntion 2.4
+
+function magic() {
+    return function (x) { // with return keyword in front of this function (x) will result as assigned to the above variable (Function expression technique).
+        return x * 42;
+    };
+}
+const answer = magic();
+console.log(answer); // * return the whole function structure : because, no invocation ()
+console.log(answer(1337)); // ** 56154 : because, 1337*42=56154 | magic() which assigned to the answer variable's been invoked once then answer(1337) is equal to the second invocation.
+console.log(magic(1337)(42)); // *** 1764 : because, 42*42=1764 & there are 2 arguments, the first one (1337) has no parameter to assign to but the second one (42) assigned to f(x) which return (x*42).

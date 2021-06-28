@@ -1,0 +1,14 @@
+// Lab Fucntion 1.8
+
+function login(username, password) {
+    if (username === 'admin' && password === 'P@ssw0rd') {
+        return 'Successfully login!';
+    } else {
+        return 'Invalid login';
+    }
+}
+
+let userName = prompt('Username: ');
+let passWord = prompt('Password: ');
+
+alert(login(userName, passWord));

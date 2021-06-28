@@ -1,0 +1,25 @@
+// Lab Loop 9.9
+
+const answer = +prompt('Player1, please input the expected answer between 1-99 : ');
+
+while (!isNaN(answer) && answer<=99 && answer>=1) {
+    let guess = prompt('Player2, What is the number of answer between 1-99? : ');
+    if (guess == null) {
+        break;
+    } else {
+        guess *= 1;
+    }
+    if (guess == answer) {
+        alert('You are right!');
+        break;
+    } else if (guess<answer) {
+        alert('It\'s less than the answer now!');
+        continue;
+    } else if (guess>answer) {
+        alert(`It's greater than the answer now!`);
+        continue;
+    } else {
+        alert(`Please input number between 1-99 only!`);
+        continue;
+    }
+}

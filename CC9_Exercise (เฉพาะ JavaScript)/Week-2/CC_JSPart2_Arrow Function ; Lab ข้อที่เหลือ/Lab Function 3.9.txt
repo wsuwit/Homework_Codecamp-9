@@ -1,0 +1,4 @@
+// Lab Function 3.9
+
+const isLeap = x => {if (x%100===0 && x%400===0) return true; else if (x%100!==0 && x%4===0) return true; else return false;}
+console.log(isLeap(2021));
