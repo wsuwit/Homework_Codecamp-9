@@ -7,11 +7,17 @@ Steps for GIT:
 3. git init | git clone https://www...
 4. git add . | git add (file name…)
 5. git commit -m "My comment here!"
-6. git remote add origin https://github.com/wsuwit/Homework_Codecamp-9.git
-7. git branch -M main
-8. git push -u origin main (after that “git push” for short)
-9. git remote -v (check origin source)
+6. git branch -M main
+7. git remote add origin https://github.com/wsuwit/Homework_Codecamp-9.git
+8. git push -u origin main 		(after that “git push” for short)
+9. git remote -v 			(check origin source)
 
+…or push an existing repository from the command line
+1. git remote add origin https://github.com/wsuwit/Homework_Codecamp-9.git
+2. git branch -M main
+3. git push -u origin main
+
+___________________________________________________________________________
 
 "HOMEWORK"
 Week-1 (Jun 14-18, 2021)
