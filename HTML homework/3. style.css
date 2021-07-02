@@ -1,0 +1,209 @@
+/* temp */
+
+/* section,
+header,
+footer {
+  outline: 1px dashed green;
+}
+
+.container {
+  outline: 1px dashed red;
+} */
+/* Global */
+h1,
+body {
+  margin: 0;
+}
+
+html {
+  background: gray;
+  font-family: Arial, Helvetica, sans-serif
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+body {
+  max-width: 1200px;
+  background: lightblue;
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.current {
+  color: deeppink;
+  font-weight: bold;
+}
+
+/* Header */
+
+header {
+  background: skyblue;
+  color: whitesmoke;
+  min-height: 70px;
+  padding-top: 30px;
+  border-bottom: 3px solid salmon;
+}
+
+header .branding {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: inherit;
+}
+
+header a:hover {
+  color: pink;
+}
+
+header span {
+  color: deeppink;
+}
+
+/* Showcase */
+.showcase {
+  min-height: 400px;
+  background: url("https://picsum.photos/id/2/1500/500/?blur=4") no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.showcase h1 {
+  margin-top: 100px;
+  text-size: 55px;
+}
+
+.showcase p {
+  font-size: 20px;
+  color: deeppink;
+  width: 80%;
+  margin: auto;
+}
+
+/* Newsletter */
+.newsletter {
+  padding: 15px;
+  background: lightskyblue;
+  color: coral;
+}
+
+.newsletter h1 {
+  float: left;
+}
+
+.newsletter form {
+  float: right;
+}
+
+.newsletter input[type="email"] {
+  width: 250px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+}
+
+.newsletter input[type="submit"] {
+  height: : 35px;
+  background-color: coral;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 9px 20px;
+}
+
+/* Icon */
+section .box {
+  margin-top: 20px;
+  float: left;
+  width: 30%;
+  padding:10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section img {
+  /* width: 120px; */
+  height: 100px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background: lightskyblue;
+  text-align: center;
+
+}
+
+/* About */
+.about {
+  background: lightgray;
+  height: 500px;
+}
+
+.about .aboutus {
+  float: left;
+  width: 70%;
+}
+
+.about .aside {
+  float: right;
+  width: 25%;
+  background: violet;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 5px 5px;
+}
+
+/* Services */
+.services {
+  background: lightgray;
+}
+
+.services .serv {
+  float: left;
+  width: 70%;
+}
+
+.services .yellowcon {
+  background: rgba(255, 255, 0, 0.863);
+  color: deeppink;
+  margin: 5px;
+  padding: 6px;
+  border-radius: 5px 5px;
+}
+
+.services .quote {
+  float: right;
+  width: 26%;
+  padding: 10px;
+  background: violet;
+  color: white;
+  margin-top: 40px;
+  border-radius: 5px 5px;
+}
