@@ -1,0 +1,6 @@
+var myList = [];
+myList.push(['Choco-milk', 55], 
+['Coco-crunch', 111], 
+['Coconut', 35], 
+['Jelly', 22], 
+['Tomato-sauce', 19]);

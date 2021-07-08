@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework3-facebook</title>
+    <title>Homework-facebook-flex</title>
     <style>
         *{
             font-family: helvetica, sans-serif;
@@ -13,50 +13,70 @@
         body {
             background: white;
         }
+        .total {
+            font-size: 14px;
+            margin: 0px;
+            padding: 0px;
+            /* outline: 1px solid greenyellow; */
+        }
         .mainBg {
-            background: #f0f2f5;
             width: 100%;
+            background: #f0f2f5;
+
         }
         .mainContainer {
-            background: #f0f2f5;
-            padding: 40px 0px;
-            border: none;
-            margin: 0px auto;
-            text-align: center;
             width: 980px;
+            margin: 0px auto;
+            height: 710px;
+            line-height: 1.34;
+            padding: 100px 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
             /* outline: 1px solid black; */
         }
         .header {
-            margin: 0px auto;
-            padding: 0px;
-            width: 400px;
-            height: 150px;
-            /* float: left; */
-            /* outline: 1px solid black; */
+            display: inline-block;
+            padding: 0px 32px 0px 0px;
+            width: 580px;
+            height: 266px;
+            /* outline: 1px solid blue; */
         }
         .h1Font {
             font-weight: 700;
-            font-size:3.5em; 
-            padding: 0px 0px 10px;
-            text-align: left;
-        }
-        .h2Font {
-            font-weight: 100;
-        }
-        form {
-            padding: 6px 15px;
-        }
-        section {
-        }
-        .marginZero {
-            margin: 0px auto;
-            padding: 0px;
+            font-size: 4.3em; 
+            margin: 0px;
+            padding: 112px 0px 16px;
+            height: 182px;
         }
         .blueFB {
             color: #1877f2;
         }
-        .center {
+        .h2Font {
+            margin: 0px;
+            font-weight: 100;
+            font-size: 28px;
+            padding-bottom: 20px;
+        }
+        section {
+            justify-content: right;
+            align-items: center;
+            width: 394px;
+            height: 456px;
             text-align: center;
+            /* outline: 1px solid black; */
+        }
+        .formBox {
+            display: inline-block;
+            justify-content: center;
+            background: white; 
+            padding: 6px;
+            width: 400px;
+            height: 350px;
+            border-radius: 6px;
+            box-shadow: black 0px 8px 20px -15px;
+            margin: 40px 0px 0px;
+            /* outline: 3px solid black; */
         }
         .inputForm {
             font-size:19px; 
@@ -66,19 +86,8 @@
             padding: 14px 16px;
             border: 1px solid #dddfe2;
         }
-        .formBox {
-            display: inline-block;
-            background: white; 
-            padding: 6px;
-            width: 400px;
-            height: 350px;
-            border-radius: 6px;
-            box-shadow: black 0px 8px 20px -15px;
-            margin: 0 auto;
-        }
-        input[type=text]:focus {
-            /* border: 10px solid dodgerblue; */
-            /* background-color: blue; */
+        form {
+            padding: 6px 15px;
         }
         .loginSubmit {
             background: #1877f2; 
@@ -120,7 +129,8 @@
             display: inline-block;
         }
         footer {
-            width: 980px;
+            /* width: 980px; */
+            width: 82%;
             margin: auto;
         }
         ul a {
@@ -146,16 +156,35 @@
             font-size: 13px;
             color: #737373;
         }
+        @media (max-width: 1100px) {
+        .mainContainer {
+        width: 100%;
+        margin: 0px auto;
+        height: 710px;
+        line-height: 1.34;
+        padding: 100px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        }
+        .header {
+            text-align: center;
+            width: 440px;
+            padding: 0px;
+        }
+        }
     </style>
 </head>
 <body>
+<div class="total">
     <div class="mainBg">
     <div class="mainContainer">
-        <header class="header center">
-            <h1 class="marginZero blueFB center h1Font">facebook</h1>
-            <h2 class="marginZero center h2Font">Facebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</h2>
+        <header class="header">
+            <h1 class="blueFB h1Font">facebook</h1>
+            <h2 class="h2Font">Facebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</h2>
         </header>
-        <section>
+        <section class="">
             <div class="formBox">
                 <form action="#">
                     <input type="text" class="inputForm" placeholder="อีเมลหรือหมายเลขโทรศัทพ์มือถือ" autofocus>
@@ -165,7 +194,7 @@
                         <a href="#" class="noUnderLine underlineDeco">ลืมรหัสผ่านใช่หรือไม่</a>
                     </div>
                     <hr>
-                    <div class="center">
+                    <div class="">
                         <button class="buttonAccount">สร้างบัญชีใหม่</button>
                     </div>
                 </form>
@@ -189,7 +218,7 @@
                 <li><a href="#">Português (Brasil)</a></li>
                 <li><a href="#">Italiano</a></li>
             </ul>
-            <hr style="">
+            <hr/>
             <ul>
                 <li><a href="#">สมัคร</a></li> 
                 <li><a href="#">เข้าสู่ระบบ</a></li> 
@@ -227,5 +256,6 @@
             <p class="copyRight">Facebook &#169; 2021</p>
         </div>
     </footer>
+</div>
 </body>
 </html>

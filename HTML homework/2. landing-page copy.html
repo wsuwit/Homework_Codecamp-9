@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- https://codesandbox.io/s/home-work-landing-page-dxo86 -->
+
+<head>
+  <meta character="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"
+  <title>The Programming Solutions</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      background-image: url("https://cdn.wallpapersafari.com/41/42/RY19cE.jpg");
+      font-family: Helvetica, sans-serif;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+    ul {
+      display: block;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+      background-color: #222;
+      position: fixed;
+      top: 0px;
+      width: 100%;
+    }
+    li {
+      float: left;
+    }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      overflow: hidden;
+    }
+    li a:hover {
+      background-color: #000;
+    }
+    .right {
+      float: right;
+      background: #25b;
+      border-radius: 3px;
+      margin-left: 1px;
+    }
+    div {
+      border: solid 2px white;
+      border-radius: 5px 5px;
+      margin: 125px auto;
+      padding: 0px;
+      width: 55%;
+      text-align: center;
+      color: white;
+      text-shadow: 5px 5px 5px black;
+    }
+    h1 {
+        font-size: 4.5vw;
+        font-weight: 600;
+    }
+    button {
+      color: white;
+      background-color: #1e90ff;
+      font-size: 30px;
+      margin-bottom: 80px;
+      border: 2px solid dodgerblue;
+      border-radius: 8px 18px;
+      padding: 10px;
+    }
+    button:hover {
+      background-color: snow;
+      color: royalblue;
+      border: 2px solid snow;
+    }
+    @media (max-width:600px) {
+      li {width:16%;}
+      h1 {font-size: 28px;}
+      div {width: 220px;}
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="/full-stack/">Full-Stack Developer</a></li>
+    <li><a href="/front-end/">Front-End Developer</a></li>
+    <li><a href="/back-end/">Back-End Developer</a></li>
+    <li><a href="/data/">Data Scientist</a></li>
+    <li><a href="/mobile/">Mobile Developer</a></li>
+    <li><a href="/ux/">UX Designer</a></li>
+    <li class="right"><a href="sign-up">Sign-Up</a></li>
+    <li class="right"><a href="login">Login</a></li>
+  </ul>
+  <div>
+    <h1>Become <br> A Great Programmer <br> with The Best Solution</h1>
+    <button>Join Now</button>
+    <p>*demo version only.</p>
+  </div>
+</body>
+</html>

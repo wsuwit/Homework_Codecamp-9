@@ -1,0 +1,1 @@
+let yourArray = ['str',999, true, false, ['coco', 55]]; // Change this line
