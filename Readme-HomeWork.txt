@@ -29,13 +29,15 @@ ___________________________________________________________________________
 https://github.com/codecamp-official-thailand/CC9_Exercise/blob/main/README.md
 
 "HOMEWORK"
-Week-1 (Jun 14-18, 2021)
+Week-1: Basic (36ข้อ)
   -(Jun 15): Image Gallery Cards.
   -(Jun 16): Landing page with "CodeSandbox".
   -(Jun 17): About and Services with "CodeSandbox" | Fixed colorful boxes | Facebook register page.
   -(Jun 18): JS exercises on "freecodecamp.org" (Variable, Number, String).
-Week-2 (Jun 21-25, 2021)
+Week-2: Loop,Condition,Function (ุ54-60ข้อ)
   -(Jun 25): JS on "freecodecamp.org" (Conditional, Loop, Function).
-Week3 :
+Week3:
   -(Jun 30): FACEBOOK responsive page with flex.
   -(Jul 2): Object and Array (64ข้อ) (freecodecamp.org).
+Week4: เก็บตก Basic + ES6
+  -*Checkpoint : เก็บ Module Basic กับ ES6 ให้ครบ (ยกเว้น ES6 ที่เป็น Class,Getter-Setter,Promise รวม 6ข้อ)
